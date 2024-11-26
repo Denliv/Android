@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_gr"
+    app:startDestination="@id/startFragment_gr">
+
+    <fragment
+        android:id="@+id/startFragment_gr"
+        android:name="com.fragments.GrFragment"
+        android:label="fragment_start_gr"
+        tools:layout="@layout/fragment_gr" >
+        <action
+            android:id="@+id/action_startFragment_gr_to_messageFragment"
+            app:destination="@id/messageFragment_gr" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment_gr"
+        android:name="com.fragments.MessageGrFragment"
+        android:label="fragment_message_gr"
+        tools:layout="@layout/fragment_message_gr" >
+        <action
+            android:id="@+id/action_messageFragment_gr_to_resultFragment"
+            app:destination="@id/resultFragment_gr" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment_gr"
+        android:name="com.fragments.ResultFragmentGr"
+        android:label="fragment_result_gr"
+        tools:layout="@layout/fragment_result_gr" >
+        <argument
+            android:name="messageGr"
+            app:argType="string" />
+    </fragment>
+</navigation>

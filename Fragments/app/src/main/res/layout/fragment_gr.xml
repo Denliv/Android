@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".GrFragment">
+
+    <ImageView
+        android:id="@+id/gr_fragment_image"
+        android:layout_width="300sp"
+        android:layout_height="180sp"
+        android:src="@drawable/gr" />
+
+    <TextView
+        android:id="@+id/gr_fragment_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gr_fragment_text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/gr_fragment_button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin"
+        android:textSize="24sp"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>

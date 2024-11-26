@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CHOOSE YOUR TRIBE -----------------></string>
+    <string name="action_water">WATER</string>
+    <string name="action_earth">EARTH</string>
+    <string name="action_fire">FIRE</string>
+    <string name="action_air">AIR</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Size_18">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Size_38">
+        <item name="android:textSize">38sp</item>
+    </style>
+    <style name="TextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MainStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/design_default_color_error</item>
+    </style>
+    <style name="MainStyle.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/design_default_color_error</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+</resources>

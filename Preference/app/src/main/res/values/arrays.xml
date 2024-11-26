@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="text_style">
+        <item>Original</item>
+        <item>Semi-Bold</item>
+        <item>Cursive</item>
+        <item>Semi-Bold and Cursive</item>
+    </string-array>
+</resources>

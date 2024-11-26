@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Preference</string>
+    <string name="settings_title">Settings</string>
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_summary">Turn WiFi on/off</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints</string>
+    <string name="text_size">text_size</string>
+    <string name="text_style">text_style</string>
+    <string name="text_style_title">Text style</string>
+    <string name="text_style_summary">Set text style</string>
+    <string name="text_size_title">Text size</string>
+    <string name="text_size_summary">Set text size</string>
+    <string name="text_size_dialog">Enter text size</string>
+    <string name="text_style_dialog">Choose text style</string>
+    <string name="switch_on">No</string>
+    <string name="switch_off">Yes</string>
+    <string name="setting_ringtone">setting_ringtone</string>
+    <string name="ringtone_summary">Set ringtone</string>
+    <string name="ringtone_title">Ringtone settings</string>
+    <string name="switch_theme">Theme</string>
+    <string name="text_color_title">Text color</string>
+    <string name="text_color_summary">Set text color</string>
+    <string name="text_color">text_color</string>
+    <string name="text_color_black">text_color_black</string>
+    <string name="text_color_red">text_color_red</string>
+    <string name="text_color_green">text_color_green</string>
+    <string name="text_color_blue">text_color_blue</string>
+    <string name="black_color_summary">Set black color</string>
+    <string name="red_color_summary">Set red color</string>
+    <string name="green_color_summary">Set green color</string>
+    <string name="blue_color_summary">Set blue color</string>
+    <string name="black_color_title">Black</string>
+    <string name="red_color_title">Red</string>
+    <string name="green_color_title">Green</string>
+    <string name="blue_color_title">Blue</string>
+</resources>

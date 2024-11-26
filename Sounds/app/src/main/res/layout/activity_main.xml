@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_fire"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/image_help"
+        app:layout_constraintEnd_toStartOf="@+id/image_help"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/fire" />
+
+    <ImageView
+        android:id="@+id/image_help"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/help" />
+
+    <ImageView
+        android:id="@+id/image_lebovski"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/image_jojo"
+        app:layout_constraintEnd_toStartOf="@+id/image_jojo"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_fire"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/lebovski" />
+
+    <ImageView
+        android:id="@+id/image_jojo"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toEndOf="@+id/image_fire"
+        app:layout_constraintTop_toBottomOf="@+id/image_help"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/jojo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

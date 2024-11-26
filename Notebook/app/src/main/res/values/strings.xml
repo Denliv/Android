@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notebook</string>
+    <string name="action_open">Open</string>
+    <string name="action_save">Save</string>
+    <string name="action_home">Home</string>
+    <string name="action_delete">Delete</string>
+</resources>

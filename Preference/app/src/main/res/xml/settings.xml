@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="System settings">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="wifi"
+            android:summary="@string/wifi_summary"
+            android:title="@string/wifi_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="hints"
+            android:summary="@string/hints_summary"
+            android:title="@string/hints_title" />
+        <PreferenceScreen
+            android:summary="Set airplane mode in System settings"
+            android:title="System settings: Airplane mode">
+            <intent android:action="android.settings.AIRPLANE_MODE_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Text settings">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="text_settings_enable"
+            android:title="Enable text settings" />
+        <EditTextPreference
+            android:defaultValue="14"
+            android:dialogTitle="@string/text_size_dialog"
+            android:key="@string/text_size"
+            android:summary="@string/text_size_summary"
+            android:title="@string/text_size_title"
+            android:dependency="text_settings_enable"/>
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/text_style_dialog"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:key="@string/text_style"
+            android:summary="@string/text_style_summary"
+            android:title="@string/text_style_title"
+            android:dependency="text_settings_enable"/>
+        <PreferenceScreen
+            android:key="@string/text_color"
+            android:summary="@string/text_color_summary"
+            android:title="@string/text_color_title"
+            android:dependency="text_settings_enable">
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/text_color_black"
+                android:summary="@string/black_color_summary"
+                android:title="@string/black_color_title" />
+            <CheckBoxPreference
+                android:key="@string/text_color_red"
+                android:summary="@string/red_color_summary"
+                android:title="@string/red_color_title" />
+            <CheckBoxPreference
+                android:key="@string/text_color_green"
+                android:summary="@string/green_color_summary"
+                android:title="@string/green_color_title" />
+            <CheckBoxPreference
+                android:key="@string/text_color_blue"
+                android:summary="@string/blue_color_summary"
+                android:title="@string/blue_color_title" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Graphic settings">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/switch_theme"
+            android:summaryOff="LIGHT Mode"
+            android:summaryOn="DARK Mode"
+            android:switchTextOff="@string/switch_off"
+            android:switchTextOn="@string/switch_on"
+            android:title="@string/switch_theme" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Music settings">
+        <RingtonePreference
+            android:key="@string/setting_ringtone"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/ringtone_summary"
+            android:title="@string/ringtone_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="External Links" >
+        <PreferenceScreen
+            android:title="More about Android OS" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://en.wikipedia.org/wiki/Android_(operating_system)" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eng_fragment_text">Translate to English</string>
+    <string name="enter_text_to_translate">Enter text to translate</string>
+    <string name="button_translate_text">Translate</string>
+    <string name="gr_fragment_text">Translate to German</string>
+</resources>
